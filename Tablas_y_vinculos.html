@@ -93,6 +93,82 @@
             <br>
             <h2>vinculo de telefono</h2>
             <a href="tel: 5521837645">llamar aquí</a>
-    
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h1>Formularios</h1>
+    <form action="procesar_formulario" method="post">Formulario Consultorio Dental</form>
+    <!--Se utiliza crear un formulario en HTML que permite a los usuarios ingresar y enviar datos-->
+    <br>
+    <h3>Etiqueta input</h3>
+    <!--Se utiliza para crear campos de netrada en un formulario-->
+    <input type="text" name="usuario" placeholder="Usuario">
+    <!--type define el tipo de entrada (texto, correo, contraseña, etc)-->
+    <!--name: es el nombre del campo, utilizado para identificar el dato cuando se envia el formulario-->
+    <!--placeholder: proporciona un texto ejemplo dentro del campo de entrada-->
+    <br>
+    <h3>Etiqueta label</h3>
+    <!--se utiliza para etiquetar un elementode entrada en un formulario, mejora la accesibilidad y la experiencia de usuario-->
+    <label for="usuario">Usuario</label>
+    <input type="text" id="usuario" name="usuario">
+    <br>
+    <br>
+    <h3>Etiqueta Button</h3>
+    <!--Se utiliza para crear botones en un formulario-->
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+    <!--type define el tipo de boton(submit, reset, button)-->
+    <!--name: es el nombre del boton, utilizado para identificar el boton cuando se envio el formulario-->
+    <br>
+    <br>
+    <h3>Etiqueta area de texto</h3>
+    <!--Se utiliza para crear campos de texto en el formulario-->
+    <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+    <br>
+    <br>
+    <h3>Etiqueta Select</h3>
+    <br>
+    <br>
+    <h1>Tipos de Entrada</h1>
+    <!--Permiten a los usuarios ingresar diferentes tipos de datos en un formulario -->
+    <h4>Enviar(Submit)</h4>
+    <!--Crea un boton que cuando hace clic, envia el formulario a una ubicacion especifica-->
+    <form action="procesar_formulario" method="post">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h4>Numero (number)</h4>
+    <!--Crea un campo de netrada para que el usuario ingrese numeros -->
+    <input type="number" name="numero">
+    <br>
+    <h4>Contraseña (password)</h4>
+    <!--Crear un campo de entrada para que el usuario ingrese una contraseña -->
+    <input type="password" name="contraseña">
+    <br>
+    <h4>Correo (email)</h4>
+    <!--Crear un campo de netrada para que el usuario ingrese un correo-->
+    <input type="email" name="correo">
+    <br>
+    <h4>Fecha (date)</h4>
+    <!--Crear campo de entrada, permite al usuario ingresar una fecha -->
+    <input type="date" name="fecha">
+    <br>
+    <h4>Hora (time)</h4>
+    <!--Crea un campo de entrada, permite al usuario elegir una hora -->
+    <input type="time" name="hora">
+    <br>
+    <h4>Telefono</h4>
+    <!--Crea un campo de netrada, permite al usuario ingresar un telefono -->
+    <input type="tel" name="telefono">
+    <br>
+    <h4>Archivo (file)</h4>
+    <!--Crea un campo de entrada, que permite al usuario ingresar un archivo-->
+    <input type="file" name="archivo">
+
+
+
+
 </body>
 </html>
